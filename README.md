@@ -1,4 +1,4 @@
-# Predicting-Obesity-Rate-Bases-on-Food-Environment
+# Predicting-Obesity-Rate-Based-on-Food-Environment
 
 ## Contents
 
