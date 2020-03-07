@@ -1,4 +1,4 @@
-# Predicting-Obesity-Rate-Based-on-Food-Environment
+# Predicting-Obesity-Rate-Based-on-Food-Atlas
 
 ## Contents
 - [Problem Statement](#Problem-Statement)
@@ -36,9 +36,14 @@ Obesity is still a major problem in the United States. Although, we have a bette
 
 ## Modeling
 
--models used and results 
--include a table
 
+|Model                   | Train  Score    | Test score     | Misclassification |  
+|------------------------|-----------------|----------------|-------------------|
+| Baseline               |                 |                |                   |
+| Linear Regression      |                 |                |                   | 
+| Lasso                  |                 |                |                   |      
+| Ridge                  |                 |                |                   |       
+| PCA                    |                 |                |                   |   
 
 
 
