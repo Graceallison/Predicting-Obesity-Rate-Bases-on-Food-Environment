@@ -11,7 +11,7 @@
 
 ## Problem Statement
 
-The question we am seeking to answer is whether the number of healthy food stores available in each county can predict the obesity rate. We found data on food deserts from the United States Department of Agriculture. In order to see the relationships between a person's food environment and obesity, the data set consists of the availability of the number of grocery stores, fast food restaurants, and full-service restaurants. Look at which observations have the greatest impact on obesity rates.
+The question we am seeking to answer is whether the number of healthy food stores available in each county can predict the obesity rate. We found data on food deserts from the United States Department of Agriculture. In order to see the relationships between a person's food environment and obesity, the data set consists of the availability of the number of grocery stores, fast food restaurants, and full-service restaurants. Look at which observations have the greatest impact on obesity rates. The data also puts into account the number of households without cars and are more than a mile away from grocery stores. The data consists of 3,139 observations. The number of grocery stores, full service restaurants and fast food restaurants were calculated for each county. 
 
 
 ## Executive Summary
