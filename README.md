@@ -8,37 +8,40 @@
 - [Modelling](#Modelling)
 - [Conclusions and Recommendations](#Conclusions-and-Recommendations)
 
-
 ## Problem Statement
 
 The question we am seeking to answer is whether the number of healthy food stores available in each county can predict the obesity rate. We found data on food deserts from the United States Department of Agriculture. In order to see the relationships between a person's food environment and obesity, the data set consists of the availability of the number of grocery stores, fast food restaurants, and full-service restaurants. Look at which observations have the greatest impact on obesity rates. The data also puts into account the number of households without cars and are more than a mile away from grocery stores. The data consists of 3,139 observations. The number of grocery stores, full service restaurants and fast food restaurants were calculated for each county. 
+
+## Data Dictionary 
+
+[data dictionary](
+
+
+|File name| Description|
+|---|---|
+|[Acess to Food and Stores](./Data/Acess_food.xlsx)| Store/restaurant proximity, food prices, food and nutrition assistance programs, and community characteristics|
+|[Local](./Data/DataDownloadfull.xls)|The number of farms in the county that sell at least some products directly to final consumers. This includes sales from roadside stands, farmers markets, pick-your-own, door-to-door.|
+|[Health](./Data/DataDownloadfull.xls)| The number of "fitness and recreation centers" in a county, adults and children who have self-reported participating in any kind of physical activity that increased their heart rate and made them breathe hard some of the time for a total of at least 60 minutes per day on each of the 7 days before the survey.|
+|[Life Expectancy](./Data/Life_Expectancy.xlsx)|Male and Female life expectancy from 1985 to 2010. |
+|[Obesity](./Data/Obesity.xlsx)| Obesity rates and Diabete rates among children in 2008 and 2013.|
 
 
 ## Executive Summary
 
 A food atlas or a “food desert” is an area with limited access to affordable and healthy food. It hard for Americans to eat a healthy diet when they don’t have access to healthy food, and this is a main reason why we still have high obesity rates in many parts of the country. The rate of diabetes among Americans has more than doubled (Ghosh-Dastidat & D. Cohen & G. Hunter & S. N. Zenk & C. Huang & R. Beckman & T. Dubowitz, 2014).  The increases of supermarkets that are a half a mile distance from households have resulted in a lower BMI. A person’s food environment can greatly affect obesity rates in the U.S.  People living in low-income neighborhoods have poorer health and higher rates of obesity (Ghosh-Dastidat et al, 2014). The distance to restaurants, fast food restaurants and grocery stores can impact your eating choices. We seeks to show how your food environment can help determine obesity rates for each county in all fifty states of the U.S. We believe that the number of unhealthy food option will cause an increase the obesity levels in the county. Counties with access to healthier food choices will have a negative correlation with obesity rates. 
 
-
 Obesity is still a major problem in the United States. Although, we have a better understanding on what is considered a healthy diet, many Americans don’t have access to affordable and healthy food. Americans are also choosing not to follow a healthy lifestyle because of the increased price of the food items. Lower-income households are relying more on “empty calorie” food that are readily available at convenience stores and fast food restaurants (R.E. Walker & Jason Block & Ichiro Kawachi, 2010). The U.S. Office of Agriculture found that 2.3 million people live more than a mile from the grocery store and don’t own a car (R.E. Walker et al, 2010). It is also difficult for large supermarkets to find enough space to build their store in urban areas. As a result, the creation of more supermarkets and grocery stores are seen as undesirable (Chi, Sang-Hyun & Diana S. Grigsby-Toussaint & Natalie Bradford & Jinmu Choi, 2013). In more rural areas, people lack pubic transportation and the number of grocery stores is growing at a much smaller rate as compared to the rate of fast food restaurants. Philadelphia had the second lowest number of supermarkets among other U.S. major cities and lower income neighborhood at thirty percent less food stores than higher income neighborhoods (R.E. Walker et al, 2010). The emergence of food deserts came with more upper class households leaving the cities to go to the suburban areas (R.E. Walker & Jason Block & Ichiro Kawachi, 2010). Studies have found that obesity stems from unhealthy eating habits. Americans have limited access to adequate food and people are at risk for food insecurity and obesity (Ghosh-Dastidat et al, 2014). The U.S. has one of the highest rates in food insecurity when compared to other countries. In order to combat obesity, we need to make is a priority that everyone has equal access to affordable and healthier food choices. A healthy food environment refers to having easy access to supermarkets, farmers markets and convenience stores.
-
-
-## Data Dictionary 
-
-[link the data dictionary]
-or add table of data dictionary 
  
-
-
-## PreProcessing
-
-- eda and cleaning 
-
 
 
 ## Modeling
 
+Once the data is cleaned and the collinearity was analyzed, we successfully ran our linear regression, lasso and ridge model to answer our problem statement. We ran a Random Forest model to decide which are the best features to include in the final model. The best result was with the lasso model,the R2 for the training test of .93 and an R2 of .899 for the testing set. The RMSE was 26.236 for the testing data and  for the training set. 
 
-|Model                   | Train  Score    | Test score     | Misclassification |  
+
+### Model Scores 
+
+|Model                   | Train  Score    | Test score     | RMSE              |  
 |------------------------|-----------------|----------------|-------------------|
 | Baseline               |                 |                |                   |
 | Linear Regression      |                 |                |                   | 
@@ -46,6 +49,8 @@ or add table of data dictionary
 | Ridge                  |                 |                |                   |       
 | PCA                    |                 |                |                   |   
 
+
+<img src="./Visualizations/predictions.png"  width="700" height="400">
 
 
 
