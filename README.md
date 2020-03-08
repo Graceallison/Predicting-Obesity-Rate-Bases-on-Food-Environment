@@ -14,7 +14,7 @@ The question we am seeking to answer is whether the number of healthy food store
 
 ## Data Dictionary 
 
-[data dictionary](
+[data dictionary](https://www.ers.usda.gov/data-products/food-access-research-atlas/download-the-data/)
 
 
 |File name| Description|
@@ -32,6 +32,12 @@ A food atlas or a “food desert” is an area with limited access to affordable
 
 Obesity is still a major problem in the United States. Although, we have a better understanding on what is considered a healthy diet, many Americans don’t have access to affordable and healthy food. Americans are also choosing not to follow a healthy lifestyle because of the increased price of the food items. Lower-income households are relying more on “empty calorie” food that are readily available at convenience stores and fast food restaurants (R.E. Walker & Jason Block & Ichiro Kawachi, 2010). The U.S. Office of Agriculture found that 2.3 million people live more than a mile from the grocery store and don’t own a car (R.E. Walker et al, 2010). It is also difficult for large supermarkets to find enough space to build their store in urban areas. As a result, the creation of more supermarkets and grocery stores are seen as undesirable (Chi, Sang-Hyun & Diana S. Grigsby-Toussaint & Natalie Bradford & Jinmu Choi, 2013). In more rural areas, people lack pubic transportation and the number of grocery stores is growing at a much smaller rate as compared to the rate of fast food restaurants. Philadelphia had the second lowest number of supermarkets among other U.S. major cities and lower income neighborhood at thirty percent less food stores than higher income neighborhoods (R.E. Walker et al, 2010). The emergence of food deserts came with more upper class households leaving the cities to go to the suburban areas (R.E. Walker & Jason Block & Ichiro Kawachi, 2010). Studies have found that obesity stems from unhealthy eating habits. Americans have limited access to adequate food and people are at risk for food insecurity and obesity (Ghosh-Dastidat et al, 2014). The U.S. has one of the highest rates in food insecurity when compared to other countries. In order to combat obesity, we need to make is a priority that everyone has equal access to affordable and healthier food choices. A healthy food environment refers to having easy access to supermarkets, farmers markets and convenience stores.
  
+## Cleaning the Data and EDA
+
+
+
+
+
 
 
 ## Modeling
