@@ -71,13 +71,15 @@ The features that had the highest added value to  obesity rate were . The linear
 
 ### Model Scores 
 
-|Model                   | Train  Score    | Test score     | RMSE              |  
-|------------------------|-----------------|----------------|-------------------|
-| Baseline               |                 |                |                   |
-| Linear Regression      |                 |                |                   | 
-| Lasso                  |                 |                |                   |      
-| Ridge                  |                 |                |                   |       
-| PCA                    |                 |                |                   |   
+
+|Model                                      | RMSE Train      | RMSE Test      | R2 Train          |  R2 Test  
+|-------------------------------------------|-----------------|----------------|-------------------|------------
+| Baseline                                  |      4.48       |      4.46      |       --          |       --
+| Linear Regression with all features       |      1.22       |      2.34      |   .92             |      .62
+| Linear Regression with correlated features|      2.25       |      2.34      |   .72             |      .73
+| Lasso                                     |      2.33       |      2.32      |   .77             |      .75
+| Ridge                                     |      2.33       |      2.39      |   .77             |      .75  
+| PCA                                       |      2.87       |      2.        |   .58             |      .59               
 
 
 <img src="./Visualizations/predictions.png"  width="700" height="400">
