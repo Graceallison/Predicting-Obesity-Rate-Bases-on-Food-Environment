@@ -19,8 +19,8 @@ More than one-third of adults and 18.5% of children are obese. Increasing the ac
 
 |File name| Description|
 |---|---|
-|[Acess to Food and Stores](./Data/Acess_food.xlsx)| Store/restaurant proximity, food prices, food and nutrition assistance programs, and community characteristics|
-|[Local](./Data/DataDownloadfull.xls)|The number of farms in the county that sell at least some products directly to final consumers. This includes sales from roadside stands, farmers markets, pick-your-own, door-to-door.|
+|[Acess to Food and Stores](./Data/Acess_food.xlsx)| Store/restaurant proximity|
+|[Local](./Data/DataDownloadfull.xls)|The number of farms in the county that sell at least some products directly to consumers. This includes sales from roadside stands, farmers markets, pick-your-own, door-to-door.|
 |[Health](./Data/DataDownloadfull.xls)| The number of "fitness and recreation centers" in a county, adults and children who have self-reported participating in any kind of physical activity that increased their heart rate and made them breathe hard some of the time for a total of at least 60 minutes per day on each of the 7 days before the survey.|
 |[Life Expectancy](./Data/Life_Expectancy.xlsx)|Male and Female life expectancy from 1985 to 2010. |
 |[Obesity](./Data/Obesity.xlsx)| Obesity rates and Diabete rates among children in 2008 and 2013.|
