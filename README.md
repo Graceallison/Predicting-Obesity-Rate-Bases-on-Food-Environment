@@ -42,6 +42,32 @@ Once the data is cleaned and the collinearity and the important features were an
 
 The features that had the highest added value to  obesity rate were . The linear regression coefficients for those features were, respectively. An increase in _ will increase obesity _, all else remaning constant. 
 
+### Model Features 
+
+| Name                  | Description                                      |
+|-----------------------|--------------------------------------------------|
+| PCT_DIABETS_ADULTS08  | Adult diabetes rate in 2008                      |
+| PCT_DIABETES_ADULTS13 | Adult Diabetes rate in 2013                      |
+| RECFAC09              | Number of fitness facilities                     |
+| GROC09                | Count of grocery stores                          |
+| SUPERC                | Number of superstores                            |
+| SNAPS12               | SNAP-Authorized stores                           |
+| WICS12                | WIC-authorized stores                            |
+| LACCESS_POP10         | Count of population- low access to store         |
+| PCT_LACCESS_POP10     | Percent of population - low access to store      |
+| LACCESS_LOWI10        | Low income and low access to store, 2010         |
+| PCT_LACCESS_LOWI10    | Percent Low income and low access to store, 2010 |
+| LACCESS_HHNV10        | Households, no car & low access to store, 2010   |
+| PCT_LACCESS_HHNV10    | Percent of households no car and low access      |
+| LACCESS_CHILD10       | Child Low Access to Car                          |
+| SNAPSPTH12            | SNAP-authorized stores/1,000 pop                 |
+| GHVEG_FARMS07         | Greenhouse vegetable and fresh herb farms        |
+| FMRKT09               | Number of Farmer's Markets                       |
+| SPECS09               | Number of Specialty Stores                       |
+| CONVS09               | Number of Convenience Stores                     |
+| PCT_LOCLFARM07        | Farms with direct sales                          |                                                      
+
+
 
 ### Model Scores 
 
@@ -60,7 +86,7 @@ The features that had the highest added value to  obesity rate were . The linear
 
 ## Conclusions and Recommendations
 
-This analysis showed how access to different types of food stores could impact obesity rates among adults and found that there is a statistically significant relationship between the number of fast food restaurants and obesity among children and adults. However, the RMSE scores were not very low so the model did not represent strong evidence that these factors were the only variables affecting obesity. In the U.S., healthier food items tend to be a lot more expensive than the unhealthy food items. As result, even if the counties had a lot of different food options and easy access to healthier food stores, a low-income household will choose the cheapest option and ignore the health consequences. The region of the U.S. is also very important factor that accounts for the obesity levels. Some counties had a small number of grocery stores and access to healthy food options, and many households do not have access to a car. The lack of access to supermarkets has a greater chance of health challenges such as diabetes, heart disease and cancer. Unhealthy food may be a lot cheaper in the short run but there is significant evidence that unhealthy eating will lead to diabetes, cardiovascular disease and other life threatening diseases. The consequences in the long run are a lot worse. In order to end obesity in the U.S., we need to make the healthier food options more affordable. If I were to conduct this study again, I would want to look at prices of the food items and make interaction terms with the price variables and the stores variables. Prices have a lot of impact on what Americans choose to eat. Therefore, the regression with food prices might have a higher score and show a stronger relationship to the obesity rate in adults.
+This analysis showed how access to stores and well as the number of food stores and local food could impact obesity rates among adults and found that there is a statistically significant relationship between the number of fast food restaurants and obesity among children and adults. However, the RMSE scores were not very low so the model did not represent strong evidence that these factors were the only variables affecting obesity. In the U.S., healthier food items tend to be a lot more expensive than the unhealthy food items. As result, even if the counties had a lot of grocery stores or farmers market and easy access to healthier foods, a low-income household will choose the cheapest option and ignore the health consequences. The region of the U.S. is also very important factor that accounts for the obesity levels. Some counties had a small number of grocery stores and access to healthy food options, and many households do not have access to a car. The lack of access to supermarkets has a greater chance of health challenges such as diabetes, heart disease and cancer. Unhealthy food may be a lot cheaper in the short run but there is significant evidence that unhealthy eating will lead to diabetes, cardiovascular disease and other life threatening diseases. The consequences in the long run are a lot worse. In order to end obesity in the U.S., we need to make the healthier food options more affordable and transportation more available. If we were to conduct this study again, we would want to look at prices of the food items and make interaction terms with the price variables and the stores variables. Prices have a lot of impact on what Americans choose to eat. Therefore, the regression with food prices might have a higher score and show a stronger relationship to the obesity rate in adults. It would also interesting to look at median income for different counties and obesity rate. 
 
 ## Sources 
 
