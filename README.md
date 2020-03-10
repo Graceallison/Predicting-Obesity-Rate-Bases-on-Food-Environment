@@ -4,9 +4,12 @@
 - [Problem Statement](#Problem-Statement)
 - [Executive Summary](#Executive-Summary)
 - [Data Dictionary](#Data-Dictionary)
-- [Preprocessing](#Preprocessing)
+- [EDA and Modelling](#EDA-and-Modelling)
 - [Modelling](#Modelling)
+    - [Feature](#Features)
+    - [Model Scores](#Model-Scores)
 - [Conclusions and Recommendations](#Conclusions-and-Recommendations)
+- [Sources](#Sources)
 
 ## Problem Statement
 
