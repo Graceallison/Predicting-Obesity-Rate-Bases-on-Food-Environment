@@ -91,7 +91,31 @@ The features that had the highest added value to  obesity rate were . The linear
 
 ## Conclusions and Recommendations
 
-This analysis showed how access to stores and well as the number of food stores and local food could impact obesity rates among adults and found that there is a statistically significant relationship between the number of fast food restaurants and obesity among children and adults. However, the RMSE scores were not very low so the model did not represent strong evidence that these factors were the only variables affecting obesity. In the U.S., healthier food items tend to be a lot more expensive than the unhealthy food items. As result, even if the counties had a lot of grocery stores or farmers market and easy access to healthier foods, a low-income household will choose the cheapest option and ignore the health consequences. The region of the U.S. is also very important factor that accounts for the obesity levels. Some counties had a small number of grocery stores and access to healthy food options, and many households do not have access to a car. The lack of access to supermarkets has a greater chance of health challenges such as diabetes, heart disease and cancer. Unhealthy food may be a lot cheaper in the short run but there is significant evidence that unhealthy eating will lead to diabetes, cardiovascular disease and other life threatening diseases. The consequences in the long run are a lot worse. In order to end obesity in the U.S., we need to make the healthier food options more affordable and transportation more available. If we were to conduct this study again, we would want to look at prices of the food items and make interaction terms with the price variables and the stores variables. Prices have a lot of impact on what Americans choose to eat. Therefore, the regression with food prices might have a higher score and show a stronger relationship to the obesity rate in adults. It would also interesting to look at median income for different counties and obesity rate. 
+This analysis showed how access to stores and well as the number of food stores and local food could impact obesity rates among adults and found that there is a statistically significant relationship between the number of fast food restaurants and obesity among children and adults. However, the RMSE scores were not very low so the model did not represent strong evidence that these factors were the only variables affecting obesity. In the U.S., healthier food items tend to be a lot more expensive than the unhealthy food items. As result, even if the counties had a lot of grocery stores or farmers market and easy access to healthier foods, a low-income household will choose the cheapest option and ignore the health consequences. The region of the U.S. is also very important factor that accounts for the obesity levels. Some counties had a small number of grocery stores and access to healthy food options, and many households do not have access to a car. The lack of access to supermarkets has a greater chance of health challenges such as diabetes, heart disease and cancer. Unhealthy food may be a lot cheaper in the short run but there is significant evidence that unhealthy eating will lead to diabetes, cardiovascular disease and other life threatening diseases. The consequences in the long run are a lot worse. In order to end obesity in the U.S., we need to make the healthier food options more affordable and transportation more available. If we were to conduct this study again, we would want to look at prices of the food items and make interaction terms with the price variables and the stores variables. Prices have a lot of impact on what Americans choose to eat. Therefore, the regression with food prices might have a higher score and show a stronger relationship to the obesity rate in adults. It would also interesting to look at median income for different counties and obesity rate.
+
+| Name                  | Ceofficient             
+|-----------------------|--------------|
+| PCT_DIABETS_ADULTS08  |              |
+| PCT_DIABETES_ADULTS13 |              |
+| RECFAC09              |              |
+| GROC09                |              |
+| SUPERC                |              |
+| SNAPS12               |              |
+| WICS12                |              |
+| LACCESS_POP10         |              |
+| LACCESS_LOWI10        |              |    
+| LACCESS_HHNV10        |              |
+| PCT_LACCESS_HHNV10    |              |
+| LACCESS_CHILD10       |              |
+| SNAPSPTH12            |              |
+| GHVEG_FARMS07         |              |
+| FMRKT09               |              |
+| SPECS09               |              |
+| CONVS09               |              |
+| PCT_LOCLFARM07        |              |    
+
+
+
 
 ## Sources 
 
